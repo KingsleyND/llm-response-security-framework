@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-rag"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9,<2",
+    "huggingface-hub>=0.34",
+    "ollama>=0.6.3,<1",
+    "sentence-transformers>=6.3,<7",
+]
+
+[tool.setuptools.packages.find]
+include = ["medical_rag*"]

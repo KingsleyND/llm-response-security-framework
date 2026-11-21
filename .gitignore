@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.egg-info/
+medical_rag_db/
+medical_rag_index/
+.ipynb_checkpoints/
